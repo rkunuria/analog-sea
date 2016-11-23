@@ -1,0 +1,84 @@
+* {
+	background-color: #0099ff;
+	box-sizing: border-box;
+}
+
+.logo {
+	display: block;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+legend {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.signupform {
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 40px;
+}
+
+.logo, .signupform {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type="email"], input[type="password"],
+.signupform, legend, label, .forgotpassword, 
+.passwordlink, button
+	
+	{
+	background-color: white;
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+legend {
+    padding: 30px;
+    font-size: 30px;
+}
+
+input[type="email"], input[type="password"] {
+	margin-bottom: 50px;
+	display: block;
+}
+
+.forgotpassword, .passwordlink {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	bottom: 20px;
+}
+
+button, .forgotpassword, .passwordlink
+{position: relative;}
+
+
+button, .forgotpassword {
+	margin-bottom: 50px;
+}
+
+input, button {
+	border: 2px solid #E7E7E7;
+	padding: 15px;
+	width: 320px;
+	height: 55px;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: green;
+}
+
+.login {
+	text-align: center;
+	margin-top: 20px;
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+}
